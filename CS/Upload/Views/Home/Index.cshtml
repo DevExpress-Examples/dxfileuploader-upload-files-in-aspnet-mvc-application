@@ -1,0 +1,26 @@
+﻿AJAX Uploading:
+<div id="uploadContainer"></div>
+
+Form Submit Uploading:
+@using (Html.BeginForm("Submit", "Home", FormMethod.Post, new { enctype = "multipart/form-data" })) {
+    <div id="formUploadContainer"></div>
+    <input type="submit" />
+}
+
+<script type="text/javascript">
+    $("#uploadContainer").dxFileUploader({
+        buttonText: 'Select file',
+        labelText: 'Drop file here',
+        multiple: true,
+        accept: 'image/*',
+        uploadUrl: '@Url.Action("FileUpload", "Home")'
+    });
+
+    $("#formUploadContainer").dxFileUploader({
+        buttonText: 'Select file',
+        labelText: 'Drop file here',
+        multiple: true,
+        accept: 'image/*',
+        uploadMode: 'useForm'
+    });
+</script>
