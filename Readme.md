@@ -1,3 +1,11 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[HomeController.cs](./CS/Upload/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/Upload/Controllers/HomeController.vb))**
+* [SaveFilesHelper.cs](./CS/Upload/Helpers/SaveFilesHelper.cs) (VB: [SaveFilesHelper.vb](./VB/Upload/Helpers/SaveFilesHelper.vb))
+* [Index.cshtml](./CS/Upload/Views/Home/Index.cshtml)
+* [Web.config](./CS/Upload/Web.config) (VB: [Web.config](./VB/Upload/Web.config))
+<!-- default file list end -->
 # dxFileUploader - How to upload files to the server in an ASP.NET MVC application
 
 
