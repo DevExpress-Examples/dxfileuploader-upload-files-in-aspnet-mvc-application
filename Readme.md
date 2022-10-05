@@ -4,18 +4,28 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 <!-- default file list -->
-*Files to look at*:
+# DevExtreme File Uploader - How to upload files in an ASP.NET MVC application.
 
-* **[HomeController.cs](./CS/Upload/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/Upload/Controllers/HomeController.vb))**
-* [SaveFilesHelper.cs](./CS/Upload/Helpers/SaveFilesHelper.cs) (VB: [SaveFilesHelper.vb](./VB/Upload/Helpers/SaveFilesHelper.vb))
-* [Index.cshtml](./CS/Upload/Views/Home/Index.cshtml)
-* [Web.config](./CS/Upload/Web.config) (VB: [Web.config](./VB/Upload/Web.config))
-<!-- default file list end -->
-# dxFileUploader - How to upload files to the server in an ASP.NET MVC application
+This example demonstrates how to use the [dxFileUploader](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxFileUploader/) widget to upload files to a server in an ASP.NET MVC application. 
 
+![](dxfileuploader.png)
 
-<p>This example demonstrates how to upload files to the server by using the dxFileUploader widget in an ASP.NET MVC application. Two approaches are illustrated:<br><br>1) Uploading files by using an AJAX request.<br>2) Uploading files when the form is submitted.<br><br><strong>See also:</strong><br><a href="https://www.devexpress.com/Support/Center/p/T365088">T365088: dxFileUploader - How to upload files to the server in an ASP.NET Web Forms application</a></p>
+The example application demonstrates the following techniques:
 
-<br/>
+- Send an AJAX request to upload files.
+- Upload files when a user submits an HTML form.
 
+## Files to Review
 
+- [HomeController.cs](./CS/Upload/Controllers/HomeController.cs) (VB: [HomeController.vb](./VB/Upload/Controllers/HomeController.vb))
+- [SaveFilesHelper.cs](./CS/Upload/Helpers/SaveFilesHelper.cs) (VB: [SaveFilesHelper.vb](./VB/Upload/Helpers/SaveFilesHelper.vb))
+- [Index.cshtml](./CS/Upload/Views/Home/Index.cshtml) (VB: [Index.vbhtml](./VB/Upload/Views/Home/Index.vbhtml))
+- [Web.config](./CS/Upload/Web.config) (VB: [Web.config](./VB/Upload/Web.config))
+
+## Documentation
+
+- [DevExtreme File Uploader](https://js.devexpress.com/Documentation/ApiReference/UI_Components/dxFileUploader/)
+
+## More Examples
+
+- [DevExtreme File Uploader - How to upload files to the server in an ASP.NET Web Forms application](https://www.devexpress.com/Support/Center/p/T365088)
