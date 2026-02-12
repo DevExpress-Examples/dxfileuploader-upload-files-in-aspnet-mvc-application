@@ -31,7 +31,7 @@ The example application demonstrates the following techniques:
 
 - [DevExtreme File Uploader - How to upload files to the server in an ASP.NET Web Forms application](https://www.devexpress.com/Support/Center/p/T365088)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=dxfileuploader-upload-files-in-aspnet-mvc-application&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=dxfileuploader-upload-files-in-aspnet-mvc-application&~~~was_helpful=no)
 
